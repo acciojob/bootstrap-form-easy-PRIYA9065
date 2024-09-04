@@ -28,3 +28,14 @@ form, button{
 input{
 	height: 30px;
 }
+
+#college-input{
+	width: 40vw;
+}
+
+button{
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius:10px;
+}
