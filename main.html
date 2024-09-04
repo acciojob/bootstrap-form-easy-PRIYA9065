@@ -12,26 +12,27 @@
 	<form method="post" action="index.html">
 	<div id="div-1">
 	<div>
-		<label for="first-name-input">First Name</label><br>
-		<input type="text" id="first-name-input" name="first-name-input" required>
+		<label for="first-name-input" class="form label">First Name</label><br>
+		<input type="text" id="first-name-input" name="first-name-input" class="form-control" required>
 	</div>
 	<div>
 		<label for="last-name-input">Last Name</label><br>
-		<input type="text" id="last-name-input" name="last-name-input" required>
+		<input type="text" id="last-name-input" name="last-name-input" class="form-control" required>
 	</div>
 	<div>
 		<label for="email-input">Email Address</label><br>
-		<input type="email" id="email-input" name="email-input" required>
+		<input type="email" id="email-input" name="email-input" class="form-control" required>
 	</div>
 	</div>
 
 	<div id="div-2">
 		<div>
 		<label for="college-input">College</label><br>
-		<input type="text" id="college-input" name="college-input" required>
+		<input type="text" id="college-input" name="college-input" class="form-control" required>
 		</div>
 		<div>
-		<select>
+		<label for="grad-year-input" class="form-label">Graduation Year</label><br>
+		<select name = "grad-year-input" id = "grad-year-input" class="form-select" required>
 			<option>choose...</option>
 			<option>2020</option>
 			<option>2021</option>
@@ -40,8 +41,8 @@
 		</select>
 	    </div>
 	    <div>
-		<label for="roll-no-input">Roll No.</label><br>
-		<input type="text" id="roll-no-input" name="roll-no-input" required>
+		<label for="roll-no-input" class="form-label">Roll No.</label><br>
+		<input type="text" id="roll-no-input" name="roll-no-input" class="form-control" required>
 	</div>
 	</div>
 
